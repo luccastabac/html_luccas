@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{width: 100px; height: 100px;}
+        .red{background-color: red;}
+        .green{background-color: green;}
+        .blue{background-color: blue;}
+        .container{ display: flex; justify-content: space-between; align-items: center; align-items: center}
+        .coluna{flex-direction: column;}
+        .colunareversa{flex-direction: column-reverse;}
+        .linhareversa{flex-direction: row-reverse}
+    </style>
+</head>
+<body>
+        <div class="container coluna"> <!--pai-->
+            <div class="box red"></div> <!--filho-->
+            <div class="box green"></div> <!--filho-->
+            <div class="box blue"></div> <!--filho-->
+    </div>
+    <br/>
+        <div class="container colunareversa"> <!--pai-->
+            <div class="box red"></div> <!--filho-->
+            <div class="box green"></div> <!--filho-->
+            <div class="box blue"></div> <!--filho-->
+    </div>
+    <br/>
+        <div class="container linhareversa"> <!--pai-->
+            <div class="box red"></div> <!--filho-->
+            <div class="box green"></div> <!--filho-->
+            <div class="box blue"></div> <!--filho-->
+    </div>
+       
+</body>
+</html>

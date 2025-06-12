@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Minha Página Pessoal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #d9d9d9;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    .perfil {
+      display: flex;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .foto-perfil {
+      width: 100px;
+      height: 100px;
+      background-color: #d9d9d9;
+      border-radius: 20px;
+    }
+
+    .info {
+      font-size: 18px;
+    }
+
+    .linha-horizontal {
+      width: 90%;
+      height: 2px;
+      background-color: #ccc;
+      margin: 20px auto;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    .imagens-lembrancas {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .imagem-bloco {
+      width: 150px;
+      height: 150px;
+      background-color: #d9d9d9;
+      border-radius: 20px;
+    }
+
+    .pessoas {
+      display: flex;
+      align-items: center;
+      background-color: #d9d9d9;
+      border-radius: 20px;
+      padding: 10px;
+      width: fit-content;
+    }
+
+    .pessoas img {
+      width: 100px;
+      height: 100px;
+      border-radius: 20px;
+      border: 2px solid black;
+      margin-right: 15px;
+    }
+
+    footer {
+      background-color: #d9d9d9;
+      text-align: center;
+      padding: 10px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div><strong>&lt;/&gt;</strong></div>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#lembrancas">Lembranças</a>
+      <a href="#pessoas">Pessoas</a>
+    </nav>
+  </header>
+
+  <section id="inicio" class="perfil">
+    <div class="foto-perfil"></div>
+    <div class="info">
+      <p><strong>Nome:</strong> Seu Nome</p>
+      <p><strong>Profissão:</strong> Seu interesse profissional</p>
+      <p><strong>Origem:</strong> Cidade / Estado</p>
+      <p><strong>Idade:</strong> Sua idade</p>
+    </div>
+  </section>
+
+  <div class="linha-horizontal"></div>
+
+  <section id="lembrancas">
+    <h2>Lembranças</h2>
+    <div class="imagens-lembrancas">
+      <div class="imagem-bloco"></div>
+      <div class="imagem-bloco"></div>
+      <div class="imagem-bloco"></div>
+      <div class="imagem-bloco"></div>
+    </div>
+  </section>
+
+  <section id="pessoas">
+    <h2>Pessoas, coisas ou sonhos</h2>
+    <div class="pessoas">
+      <img src="#" alt="Imagem representativa">
+      <div>
+        <p><strong>Título</strong></p>
+        <p>Descrição da pessoa, coisa ou sonho.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Todos os direitos altorais : Luccas Vicenti Tabaczenski
+  </footer>
+
+</body>
+</html>
